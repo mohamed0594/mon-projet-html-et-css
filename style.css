@@ -1,0 +1,211 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+  
+   min-height: 100vh;
+}
+header{
+    background-image: url("images/WhatsApp Unknown 2026-02-26 at 12.50.15/WhatsApp Image 2026-02-25 at 22.39.25.jpeg");
+    position: relative;
+    padding: 20px;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+}
+
+.logo{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+     padding: 30px;
+     margin-left: 50px;
+}
+
+ul{
+    display: flex;
+    gap: 70px;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none; 
+}
+
+main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.div-one{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    background-color: white;
+    top: -150px;
+    padding: 40px;
+    border-radius: 28px;
+    box-shadow: 0px 5px 10px #ccc;
+}
+
+.box{
+    background: white;
+    padding: 50px;
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+    width: 600px;
+}
+
+.title h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #0576a3;
+}
+
+.subtitle p{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.description p{
+    font-size: 18px;
+}
+.description{
+    display: flex;
+    padding: 20px;
+    gap: 40px;
+    border: 1px solid gray;
+    border-radius: 60px;
+}
+.description .premier{
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.icone{
+    color: grey;
+    text-shadow: 1px 1px 1px grey;
+}
+.icone-a{
+    color: red;
+}
+.icone-rech{
+    color: white;
+    background-color: #0576a3;;
+    border-radius: 50%;
+    padding: 20px;
+    margin-left: 15px;
+
+}
+.principale{
+    /* border: 1px solid red; */
+    position: relative;
+    padding: 20px;
+
+}
+.firsts{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+}
+.seconds{
+    /* border: 1px solid rgb(143, 230, 12); */
+    margin:  25px;
+}
+.trees{
+    /* border: 1px solid gold; */
+    
+}
+ h1{
+    /* color: blue; */
+    text-align: center;
+    padding: 80px;
+}
+.principale i{
+    border-radius: 10px;
+    border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #e0e8eb;
+    margin-left: 95px;
+    /* align-items: center; */
+    padding: 40px;
+    border-radius: 7px;
+    background-color: #F0FFFF;
+    color: rgb(68, 68, 138);
+}
+h3{
+    color: black;
+    padding: 20px;
+    margin: 10px;
+}
+.premuim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+    
+
+.our-partners h4 {
+    text-align: center;
+    padding: 40px;
+    color: black;
+    font-size: 50px;
+}
+.naturels-container h3{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+.card1{
+    text-align: center;
+    display: flex;
+    margin: 10px;
+    padding: 18px;
+    justify-content: space-between;
+    border-radius: 10px;
+    
+}
+.titre_texte1 img{
+    border-radius: 20px;
+    
+}
+
+.titre_texte img{
+    border-radius: 20px;
+}
+.card2{
+    text-align: center;
+    display: flex;
+     margin: 10px;
+    padding: 18px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.titre1_texte img{
+    border-radius: 20px;
+}
+.btn{
+   text-align: center;
+   font-weight: 15px;
+   border-radius: 20px;
+ }
+ 
