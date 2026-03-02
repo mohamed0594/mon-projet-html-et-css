@@ -185,8 +185,7 @@ h3{
     
 }
 .titre_texte1 img{
-    border-radius: 20px;
-    
+border-radius: 20px;
 }
 
 .titre_texte img{
@@ -210,11 +209,60 @@ h3{
  }
  .explore{
     background-image: url("images/WhatsApp Unknown 2026-02-26 at 12.50.15/WhatsApp Image 2026-02-25 at 22.39.30 (3).jpeg");
-       background-size: cover;
+     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 700px;
     position: relative;
     color: #F0FFFF;
+    font: bold;
+   font-size: 50px;
    
  }
- 
+ .explore h1{
+    font-size: 50px;
+ }
+.textament{
+    font-size: 16px;
+    margin-left: 45px;
+    padding: 25px;
+    margin: 40px;
+}
+.global{
+    display: flex;  
+}
+.global p{
+    font-size: 18px;
+}
+.last img{
+    display: flex;
+    margin: 10px;
+    margin-left: 40px;
+}
+.sp_div_texte{
+    margin: 15px;
+    color: rgb(215, 199, 199);
+    margin-top:70px ;
+    margin-right: 16px;
+    font: 1em ;
+}
+.last img{
+    border-radius: 20px;
+    margin-right: 16px;
+    margin-top: 70px;
+
+}
+.ph{
+    border: 0.5px solid red;
+      background-color: #fff;
+      padding: 2px 8px;
+      border-radius: 50px;
+      font-size: 30px;
+    font-weight: bold;
+    margin: 20px;;
+    padding: 20px;
+}
+.ok{
+    padding: 6px;
+    text-align: center;
+    
+}
